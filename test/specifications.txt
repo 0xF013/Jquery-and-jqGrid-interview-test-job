@@ -1,0 +1,38 @@
+Thenical Tips:
+
+ - for this task we need to use jQuery, jqGrid, jQery Validation plugin (used for form validation)
+ - you don't need to use the styles as in the screenshots, its not mandatory
+ - the code has to be written in OOP, clear and easy to read.
+
+
+Task Specifications:
+
+ 1. we need a blank page with a jqGrid and one button to interact with the grid. 
+   Below the grid there will be 3 labels that summaries the information in the grid (see 1.jpg)
+
+ 2. the Grid contains 8 rows, as shown in 1.jpg, the last row contains two action buttons - "Edit Row" and "Delete Row" 
+
+ 3. The 3 labels at the bottom of the page show the following:
+	#of Market Launches:  - total number of rows in the grid
+	Regional total amount of estimated sales potential: - total of "Est. Sales Potential(USD)"
+	Global total amount of estimated sales potential: - total of "Est. Sales Potential(CHF)"
+
+ 4. the "Add Market Launch" button, is used to Add a new data row in the grid, When user clicks on this button a 
+   modal window appears as shown in 2.jpg.
+   This modal Window has 2 mandatory fields ("Title" and "Estimated sales amount" ), therefore if the user tryes to save
+   the data without entering theese two fields, the fields are coloured in red, as shown in 2.jpg. 
+   When the form is validated, a new row is added in the grid.
+
+ 5. the 6th row in the grid "Est. Sales Potential(CHF)" is calculated from "Est. Sales Potential(USD)" by the formula
+	1CHF = 1.1USD
+
+ 6. the "Edit Row" button, must be pressent on each row. If clicked, it will open the same modal as described in #4, the only
+    difference is that the modal window is populated with data from the grid. (see 3.jpg)
+
+ 7. the "Remove row" button, must be pressent on each row. If clicked, it will open a modal warning window, as shown in 4.jpg.
+    If the user clicked "yes" the row is removed from the grid (see 5.jpg) and the Status labels are updated respectively.
+
+
+
+
+
